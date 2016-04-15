@@ -40,16 +40,15 @@
   "homepage": "https://github.com/emkay/material-ui-table-list#readme",
   "dependencies": {
     "fuzzysearch": "^1.0.3",
-    "material-ui": "^0.15.0-alpha.2",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "react-tap-event-plugin": "^0.2.0"
+    "material-ui": "^0.15.0-beta.1",
+    "react": "^15.0.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "reactify": "^1.1.1"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
     "budo": "^8.2.1",
-    "react-dom": "^0.14.8",
-    "reactify": "^1.1.1",
+    "react-dom": "^15.0.0",
     "standard": "^6.0.8",
     "standard-version": "^2.1.2"
   },

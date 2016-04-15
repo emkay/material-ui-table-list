@@ -2,7 +2,7 @@ var React = require('react')
 var mui = require('material-ui')
 var fuzzy = require('fuzzysearch')
 var {ListItem, TextField, IconButton, CircularProgress} = mui
-var Colors = mui.Styles.Colors
+var Colors = require('material-ui/styles/colors')
 
 module.exports = React.createClass({
   displayName: 'TableList',
@@ -23,7 +23,7 @@ module.exports = React.createClass({
   },
 
   contextTypes: {
-    muiTheme: React.PropTypes.object
+    muiTheme: React.PropTypes.object.isRequired
   },
 
   render () {
